@@ -1,0 +1,12 @@
+parameters:
+  "service-directory-name":
+    default: "authsample"
+emit:
+  - "@azure-tools/typespec-java"
+options:
+  "@azure-tools/typespec-java":
+    namespace: com.azure.auth.apikey
+    partial-update: true
+    emitter-output-dir: "{project-root}/../"
+    flavor: azure
+  

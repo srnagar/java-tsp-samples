@@ -1,0 +1,15 @@
+{
+  "flavor": "azure", 
+  "CrossLanguageDefinitionId": {
+    "com.azure.auth.apikey.ApiKeyAuthenticationAsyncClient": "null",
+    "com.azure.auth.apikey.ApiKeyAuthenticationAsyncClient.getFoo": "ApiKeyAuthentication.ApiKeyAuthSample.getFoo",
+    "com.azure.auth.apikey.ApiKeyAuthenticationAsyncClient.getFooWithResponse": "ApiKeyAuthentication.ApiKeyAuthSample.getFoo",
+    "com.azure.auth.apikey.ApiKeyAuthenticationClient": "null",
+    "com.azure.auth.apikey.ApiKeyAuthenticationClient.getFoo": "ApiKeyAuthentication.ApiKeyAuthSample.getFoo",
+    "com.azure.auth.apikey.ApiKeyAuthenticationClient.getFooWithResponse": "ApiKeyAuthentication.ApiKeyAuthSample.getFoo",
+    "com.azure.auth.apikey.ApiKeyAuthenticationClientBuilder": "ApiKeyAuthentication.ApiKeyAuthenticationClient",
+    "com.azure.auth.apikey.models.Foo": "ApiKeyAuthentication.Foo",
+    "com.azure.auth.apikey.models.OperationState": "Azure.Core.Foundations.OperationState",
+    "com.azure.auth.apikey.models.ResourceOperationStatusFooFooError": "Azure.Core.ResourceOperationStatus"
+  }
+}

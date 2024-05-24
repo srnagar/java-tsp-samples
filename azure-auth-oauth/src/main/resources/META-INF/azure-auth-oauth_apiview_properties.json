@@ -1,0 +1,15 @@
+{
+  "flavor": "azure", 
+  "CrossLanguageDefinitionId": {
+    "com.azure.auth.oauth.OAuthAuthenticationAsyncClient": "null",
+    "com.azure.auth.oauth.OAuthAuthenticationAsyncClient.getFoo": "OAuthAuthentication.OAuthSample.getFoo",
+    "com.azure.auth.oauth.OAuthAuthenticationAsyncClient.getFooWithResponse": "OAuthAuthentication.OAuthSample.getFoo",
+    "com.azure.auth.oauth.OAuthAuthenticationClient": "null",
+    "com.azure.auth.oauth.OAuthAuthenticationClient.getFoo": "OAuthAuthentication.OAuthSample.getFoo",
+    "com.azure.auth.oauth.OAuthAuthenticationClient.getFooWithResponse": "OAuthAuthentication.OAuthSample.getFoo",
+    "com.azure.auth.oauth.OAuthAuthenticationClientBuilder": "OAuthAuthentication.OAuthAuthenticationClient",
+    "com.azure.auth.oauth.models.Foo": "OAuthAuthentication.Foo",
+    "com.azure.auth.oauth.models.OperationState": "Azure.Core.Foundations.OperationState",
+    "com.azure.auth.oauth.models.ResourceOperationStatusFooFooError": "Azure.Core.ResourceOperationStatus"
+  }
+}

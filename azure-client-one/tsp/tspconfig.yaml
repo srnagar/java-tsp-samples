@@ -1,0 +1,11 @@
+parameters:
+  "service-directory-name":
+    default: "playground"
+emit:
+  - "@azure-tools/typespec-java"
+options:
+  "@azure-tools/typespec-java":
+    namespace: com.azure.client.one
+    partial-update: true
+    emitter-output-dir: "{project-root}/../"
+    flavor: azure

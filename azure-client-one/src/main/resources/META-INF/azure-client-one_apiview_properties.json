@@ -1,0 +1,13 @@
+{
+  "flavor": "azure", 
+  "CrossLanguageDefinitionId": {
+    "com.azure.client.one.ClientOneAsyncClient": "null",
+    "com.azure.client.one.ClientOneAsyncClient.getFoo": "ClientOne.ClientOneSample.getFoo",
+    "com.azure.client.one.ClientOneAsyncClient.getFooWithResponse": "ClientOne.ClientOneSample.getFoo",
+    "com.azure.client.one.ClientOneClient": "null",
+    "com.azure.client.one.ClientOneClient.getFoo": "ClientOne.ClientOneSample.getFoo",
+    "com.azure.client.one.ClientOneClient.getFooWithResponse": "ClientOne.ClientOneSample.getFoo",
+    "com.azure.client.one.ClientOneClientBuilder": "ClientOne.ClientOneClient",
+    "com.azure.client.one.models.Foo": "ClientOne.Foo"
+  }
+}

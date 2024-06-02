@@ -12,5 +12,6 @@
     <module>azure-auth-all</module>
     <module>azure-auth-apikey</module>
     <module>azure-auth-oauth</module>
+    <module>azure-client-one</module>
   </modules>
 </project>

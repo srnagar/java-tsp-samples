@@ -31,3 +31,6 @@ node_modules
 
 # ignore .idea directory
 .idea
+
+# ignore playground
+azure-playground-demo

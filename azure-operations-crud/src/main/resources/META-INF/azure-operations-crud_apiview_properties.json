@@ -8,7 +8,6 @@
     "com.azure.operations.crud.WidgetManagerAsyncClient.deleteWidgetWithResponse": "Contoso.WidgetManager.Widgets.deleteWidget",
     "com.azure.operations.crud.WidgetManagerAsyncClient.getWidget": "Contoso.WidgetManager.Widgets.getWidget",
     "com.azure.operations.crud.WidgetManagerAsyncClient.getWidgetWithResponse": "Contoso.WidgetManager.Widgets.getWidget",
-    "com.azure.operations.crud.WidgetManagerAsyncClient.listWidgets": "Contoso.WidgetManager.Widgets.listWidgets",
     "com.azure.operations.crud.WidgetManagerClient": "null",
     "com.azure.operations.crud.WidgetManagerClient.createOrUpdateWidget": "Contoso.WidgetManager.Widgets.createOrUpdateWidget",
     "com.azure.operations.crud.WidgetManagerClient.createOrUpdateWidgetWithResponse": "Contoso.WidgetManager.Widgets.createOrUpdateWidget",
@@ -16,7 +15,6 @@
     "com.azure.operations.crud.WidgetManagerClient.deleteWidgetWithResponse": "Contoso.WidgetManager.Widgets.deleteWidget",
     "com.azure.operations.crud.WidgetManagerClient.getWidget": "Contoso.WidgetManager.Widgets.getWidget",
     "com.azure.operations.crud.WidgetManagerClient.getWidgetWithResponse": "Contoso.WidgetManager.Widgets.getWidget",
-    "com.azure.operations.crud.WidgetManagerClient.listWidgets": "Contoso.WidgetManager.Widgets.listWidgets",
     "com.azure.operations.crud.WidgetManagerClientBuilder": "Contoso.WidgetManager.WidgetManagerClient",
     "com.azure.operations.crud.models.Widget": "Contoso.WidgetManager.Widget"
   }

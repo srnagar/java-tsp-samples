@@ -9,7 +9,6 @@ using TypeSpec.Versioning;
 using Azure.Core;
 using Azure.Core.Traits;
 
-
 @service({
   title: "Contoso Widget Manager",
 })
@@ -44,6 +43,4 @@ interface Widgets {
   /** Delete a Widget. */
   deleteWidget is Operations.ResourceDelete<Widget>;
 
-  /** List Widget resources. */
-  listWidgets is Operations.ResourceList<Widget>;
 }

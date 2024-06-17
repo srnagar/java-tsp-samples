@@ -13,15 +13,19 @@ tsp compile <sample-directory>/tsp/main.tsp
 ## Table of Contents
 
 ### Authentication samples
+
 1. [azure-auth-apikey](https://github.com/srnagar/java-tsp-samples/tree/main/azure-auth-apikey): This sample demonstrates how to authenticate using an API key (KeyCredential).
 1. [azure-auth-oauth](https://github.com/srnagar/java-tsp-samples/tree/main/azure-auth-oauth): This sample demonstrates how to authenticate using OAuth (TokenCredential).
 1. [azure-auth-all](https://github.com/srnagar/java-tsp-samples/tree/main/azure-auth-all): This sample demonstrates how to authenticate using both API key and OAuth.
 
 ### Client structure samples
+
 1. [azure-client-single](https://github.com/srnagar/java-tsp-samples/tree/main/azure-client-single): This sample demonstrates how to generate a single client using a single client builder.
 1. [azure-client-multi](https://github.com/srnagar/java-tsp-samples/tree/main/azure-client-multi): This sample demonstrates how to generate multiple clients using a single client builder.
 
 ### Operations samples
+
+1. [azure-operations-crud](https://github.com/srnagar/java-tsp-samples/tree/main/azure-operations-crud): This sample demonstrates how to generate CRUD operations.
 
 
 ### Models samples

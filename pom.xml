@@ -14,5 +14,6 @@
     <module>azure-auth-oauth</module>
     <module>azure-client-one</module>
     <module>azure-client-multi</module>
+    <module>azure-operations-crud</module>
   </modules>
 </project>

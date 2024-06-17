@@ -13,5 +13,6 @@
     <module>azure-auth-apikey</module>
     <module>azure-auth-oauth</module>
     <module>azure-client-one</module>
+    <module>azure-client-multi</module>
   </modules>
 </project>

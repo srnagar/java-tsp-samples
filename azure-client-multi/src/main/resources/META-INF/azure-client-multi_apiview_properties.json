@@ -1,0 +1,20 @@
+{
+  "flavor": "azure", 
+  "CrossLanguageDefinitionId": {
+    "com.azure.client.multi.ClientOneAsyncClient": "null",
+    "com.azure.client.multi.ClientOneAsyncClient.getFoo": "MultipleClients.ClientOne.getFoo",
+    "com.azure.client.multi.ClientOneAsyncClient.getFooWithResponse": "MultipleClients.ClientOne.getFoo",
+    "com.azure.client.multi.ClientOneClient": "null",
+    "com.azure.client.multi.ClientOneClient.getFoo": "MultipleClients.ClientOne.getFoo",
+    "com.azure.client.multi.ClientOneClient.getFooWithResponse": "MultipleClients.ClientOne.getFoo",
+    "com.azure.client.multi.ClientTwoAsyncClient": "null",
+    "com.azure.client.multi.ClientTwoAsyncClient.getBar": "MultipleClients.ClientTwo.getBar",
+    "com.azure.client.multi.ClientTwoAsyncClient.getBarWithResponse": "MultipleClients.ClientTwo.getBar",
+    "com.azure.client.multi.ClientTwoClient": "null",
+    "com.azure.client.multi.ClientTwoClient.getBar": "MultipleClients.ClientTwo.getBar",
+    "com.azure.client.multi.ClientTwoClient.getBarWithResponse": "MultipleClients.ClientTwo.getBar",
+    "com.azure.client.multi.MultipleClientsClientBuilder": "MultipleClients.MultipleClientsClient",
+    "com.azure.client.multi.models.Bar": "MultipleClients.Bar",
+    "com.azure.client.multi.models.Foo": "MultipleClients.Foo"
+  }
+}

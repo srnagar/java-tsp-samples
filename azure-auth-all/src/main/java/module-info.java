@@ -4,7 +4,9 @@
 
 module com.azure.auth.all {
     requires transitive com.azure.core;
+
     exports com.azure.auth.all;
     exports com.azure.auth.all.models;
+
     opens com.azure.auth.all.models to com.azure.core;
 }

@@ -10,16 +10,13 @@ package com.azure.auth.all.generated;
 
 import com.azure.auth.all.AllAuthenticationClient;
 import com.azure.auth.all.AllAuthenticationClientBuilder;
-import com.azure.core.credential.AccessToken;
-import com.azure.core.http.HttpClient;
 import com.azure.core.http.policy.HttpLogDetailLevel;
 import com.azure.core.http.policy.HttpLogOptions;
 import com.azure.core.test.TestMode;
 import com.azure.core.test.TestProxyTestBase;
+import com.azure.core.test.utils.MockTokenCredential;
 import com.azure.core.util.Configuration;
 import com.azure.identity.DefaultAzureCredentialBuilder;
-import java.time.OffsetDateTime;
-import reactor.core.publisher.Mono;
 
 class AllAuthenticationClientTestBase extends TestProxyTestBase {
     protected AllAuthenticationClient allAuthenticationClient;
@@ -28,11 +25,10 @@ class AllAuthenticationClientTestBase extends TestProxyTestBase {
     protected void beforeTest() {
         AllAuthenticationClientBuilder allAuthenticationClientbuilder = new AllAuthenticationClientBuilder()
             .endpoint(Configuration.getGlobalConfiguration().get("ENDPOINT", "endpoint"))
-            .httpClient(HttpClient.createDefault())
+            .httpClient(getHttpClientOrUsePlayback(getHttpClients().findFirst().orElse(null)))
             .httpLogOptions(new HttpLogOptions().setLogLevel(HttpLogDetailLevel.BASIC));
         if (getTestMode() == TestMode.PLAYBACK) {
-            allAuthenticationClientbuilder.httpClient(interceptorManager.getPlaybackClient())
-                .credential(request -> Mono.just(new AccessToken("this_is_a_token", OffsetDateTime.MAX)));
+            allAuthenticationClientbuilder.credential(new MockTokenCredential());
         } else if (getTestMode() == TestMode.RECORD) {
             allAuthenticationClientbuilder.addPolicy(interceptorManager.getRecordPolicy())
                 .credential(new DefaultAzureCredentialBuilder().build());

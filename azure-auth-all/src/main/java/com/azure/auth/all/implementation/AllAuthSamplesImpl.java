@@ -77,7 +77,7 @@ public final class AllAuthSamplesImpl {
         @UnexpectedResponseExceptionType(HttpResponseException.class)
         Mono<Response<BinaryData>> getFoo(@HostParam("endpoint") String endpoint,
             @QueryParam("api-version") String apiVersion, @PathParam("fooId") String fooId,
-            @PathParam("operationId") String operationId, @HeaderParam("accept") String accept,
+            @PathParam("operationId") String operationId, @HeaderParam("Accept") String accept,
             RequestOptions requestOptions, Context context);
 
         @Get("/foo/{fooId}/operations/{operationId}")
@@ -88,7 +88,7 @@ public final class AllAuthSamplesImpl {
         @UnexpectedResponseExceptionType(HttpResponseException.class)
         Response<BinaryData> getFooSync(@HostParam("endpoint") String endpoint,
             @QueryParam("api-version") String apiVersion, @PathParam("fooId") String fooId,
-            @PathParam("operationId") String operationId, @HeaderParam("accept") String accept,
+            @PathParam("operationId") String operationId, @HeaderParam("Accept") String accept,
             RequestOptions requestOptions, Context context);
     }
 
@@ -96,7 +96,8 @@ public final class AllAuthSamplesImpl {
      * Gets status of a Widget operation.
      * <p><strong>Response Body Schema</strong></p>
      * 
-     * <pre>{@code
+     * <pre>
+     * {@code
      * {
      *     id: String (Required)
      *     status: String(NotStarted/Running/Succeeded/Failed/Canceled) (Required)
@@ -116,9 +117,10 @@ public final class AllAuthSamplesImpl {
      *         fooId: String (Required)
      *     }
      * }
-     * }</pre>
+     * }
+     * </pre>
      * 
-     * @param fooId A sequence of textual characters.
+     * @param fooId The fooId parameter.
      * @param operationId The unique ID of the operation.
      * @param requestOptions The options to configure the HTTP request before HTTP client sends it.
      * @throws HttpResponseException thrown if the request is rejected by server.
@@ -139,7 +141,8 @@ public final class AllAuthSamplesImpl {
      * Gets status of a Widget operation.
      * <p><strong>Response Body Schema</strong></p>
      * 
-     * <pre>{@code
+     * <pre>
+     * {@code
      * {
      *     id: String (Required)
      *     status: String(NotStarted/Running/Succeeded/Failed/Canceled) (Required)
@@ -159,9 +162,10 @@ public final class AllAuthSamplesImpl {
      *         fooId: String (Required)
      *     }
      * }
-     * }</pre>
+     * }
+     * </pre>
      * 
-     * @param fooId A sequence of textual characters.
+     * @param fooId The fooId parameter.
      * @param operationId The unique ID of the operation.
      * @param requestOptions The options to configure the HTTP request before HTTP client sends it.
      * @throws HttpResponseException thrown if the request is rejected by server.

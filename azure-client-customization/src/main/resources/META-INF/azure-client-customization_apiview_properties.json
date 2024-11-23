@@ -1,0 +1,21 @@
+{
+  "flavor": "azure", 
+  "CrossLanguageDefinitionId": {
+    "com.azure.client.customization.CustomizationAsyncClient": "null",
+    "com.azure.client.customization.CustomizationAsyncClient.getBar": "Customization.CustomizationSample.getBar",
+    "com.azure.client.customization.CustomizationAsyncClient.getBarWithResponse": "Customization.CustomizationSample.getBar",
+    "com.azure.client.customization.CustomizationAsyncClient.getFooDetails": "Customization.CustomizationSample.getFoo",
+    "com.azure.client.customization.CustomizationAsyncClient.getFooDetailsWithResponse": "Customization.CustomizationSample.getFoo",
+    "com.azure.client.customization.CustomizationClient": "null",
+    "com.azure.client.customization.CustomizationClient.getBar": "Customization.CustomizationSample.getBar",
+    "com.azure.client.customization.CustomizationClient.getBarWithResponse": "Customization.CustomizationSample.getBar",
+    "com.azure.client.customization.CustomizationClient.getFooDetails": "Customization.CustomizationSample.getFoo",
+    "com.azure.client.customization.CustomizationClient.getFooDetailsWithResponse": "Customization.CustomizationSample.getFoo",
+    "com.azure.client.customization.CustomizationClientBuilder": "Customization",
+    "com.azure.client.customization.implementation.models.GetBarRequest": "Customization.getBar.Request.anonymous",
+    "com.azure.client.customization.implementation.models.GetFooRequest": "Customization.getFoo.Request.anonymous",
+    "com.azure.client.customization.models.BarModel": "Customization.Bar",
+    "com.azure.client.customization.models.Baz": "Customization.Baz",
+    "com.azure.client.customization.models.Foo": "Customization.Foo"
+  }
+}

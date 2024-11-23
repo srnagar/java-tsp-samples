@@ -15,5 +15,6 @@
     <module>azure-client-one</module>
     <module>azure-client-multi</module>
     <module>azure-operations-crud</module>
+    <module>azure-client-customization</module>
   </modules>
 </project>

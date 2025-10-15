@@ -115,4 +115,4 @@ After making changes:
 
 ## Reporting Issues or Feature Requests
 
-If you encounter any issues or have suggestions for improvements, please open an issue in the [GitHub repository](https://github.com/Microsoft/mcpt/issues) using the issue template provided in .github/ISSUE_TEMPLATE/bug_report.md or .github/ISSUE_TEMPLATE/feature_request.md.
+When reporting issues or requesting features, please use the [GitHub repository](https://github.com/srnagar/spring-boot-demo) using the issue template provided in .github/ISSUE_TEMPLATE/bug_report.md or .github/ISSUE_TEMPLATE/feature_request.md.
